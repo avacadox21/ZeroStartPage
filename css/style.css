@@ -1,0 +1,230 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap'); */
+
+html,
+body {
+  min-height: 100%;
+  background: linear-gradient(
+    107.33deg,
+    #2a0b46 8.97%,
+    #cb63cf 106.05%,
+    #d166d4 106.06%,
+    rgba(118, 63, 119, 0) 106.07%
+  );
+  font-family: "Fira Code", monospace;
+}
+
+.searchbar {
+  position: absolute;
+  top: 40px;
+  width: 804px;
+  left: 40px;
+  height: 65px;
+  background: linear-gradient(
+    90.74deg,
+    rgba(26, 23, 23, 0.58) 9.87%,
+    rgba(50, 9, 51, 0.44) 109.88%
+  );
+  border: 3px solid #dd5732;
+  border-radius: 108px;
+
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 45px;
+  letter-spacing: 0.035em;
+}
+
+.search {
+  /* background: linear-gradient(
+        90.74deg,
+        rgba(26, 23, 23, 0.58) 9.87%,
+        rgba(50, 9, 51, 0.44) 109.88%
+      ); */
+  background: none;
+  height: 60px;
+  width: 700px;
+  position: absolute;
+  left: 30px;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  font-family: "Fira Code";
+}
+
+.search:focus {
+  outline: none;
+}
+#ddg_logo {
+  position: absolute;
+  width: 56px;
+  bottom: 5px;
+  left: 740px;
+  height: 56px;
+  /* background: url(image.png); */
+  border-radius: 111px;
+}
+
+.clock {
+  position: absolute;
+  width: 446px;
+  height: 171px;
+  left: 943px;
+  top: 26px;
+
+  background: linear-gradient(
+    108.98deg,
+    rgba(150, 78, 206, 0.33) 2.83%,
+    rgba(141, 107, 219, 0.26) 68.52%,
+    rgba(141, 107, 219, 0) 100%
+  );
+  border: 1px solid #050505;
+  box-sizing: border-box;
+  border-radius: 34px;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 157px;
+  letter-spacing: 0.075em;
+
+  color: #e6e7e2;
+}
+
+.time {
+  bottom: 50px;
+  left: 20px;
+  position: relative;
+}
+
+/* ====================================================================================================================================== */
+
+.drop1 {
+  position: absolute;
+  width: 375px;
+  height: 375px;
+  top: 250px;
+  left: 40px;
+  background: linear-gradient(
+    180.08deg,
+    #2e2e2e 0.07%,
+    rgba(46, 46, 46, 0.391667) 55.62%,
+    rgba(46, 46, 46, 0.17) 99.93%
+  );
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+.drop1 .title {
+  position: absolute;
+  width: 310px;
+  height: 41px;
+  left: 35px;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 45px;
+  letter-spacing: 0.035em;
+
+  color: #7aa884;
+}
+
+.drop1 .links {
+  position: absolute;
+  width: 319px;
+  height: 263px;
+
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.075em;
+
+  color: #7b8486;
+}
+
+.linkList {
+    position: relative;
+    top: 40px;
+    list-style-type: none;
+    font-size: 2rem;
+    color: #7b8486;
+
+}
+
+.linkList a:hover {
+    text-decoration: underline;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.drop2 {
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    top: 250px;
+    left: 520px;
+    background: linear-gradient(
+      180.08deg,
+      #2e2e2e 0.07%,
+      rgba(46, 46, 46, 0.391667) 55.62%,
+      rgba(46, 46, 46, 0.17) 99.93%
+    );
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 40px;
+  }
+  
+  .drop2 .title {
+    position: absolute;
+    width: 310px;
+    height: 41px;
+    left: 35px;
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 0.035em;
+  
+    color: #E9E776;
+  }
+  
+  .drop3 {
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    top: 250px;
+    left: 1005px;
+    background: linear-gradient(
+      180.08deg,
+      #2e2e2e 0.07%,
+      rgba(46, 46, 46, 0.391667) 55.62%,
+      rgba(46, 46, 46, 0.17) 99.93%
+    );
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 40px;
+  }
+  
+  .drop3 .title {
+    position: absolute;
+    width: 310px;
+    height: 41px;
+    left: 35px;
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 0.035em;
+  
+    color: #D36280;
+  }
+  
