@@ -17,4 +17,4 @@ or
 You can download the zip folder and do the needful
 
 ## Screenshots
-![Screenshot](https://ibb.co/JmT0wHz)
+![Preview](/previewIMG.png)
